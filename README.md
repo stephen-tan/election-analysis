@@ -1,1 +1,29 @@
-# election-analysis
+# Election Analysis
+
+## Overview of Project
+A Colorado Board of Elections employee has given the folling tasks to complete the election audit of a recent local congressional election. The tasks were: <br />
+1. Calculate...
+
+
+## Results
+The results of the analysis showed that 2017 was a far better year than 2018 for the dozen stocks analyzed, with only one of the stocks having a negative annual returns for 2017 whereas in 2018 there were only two stocks that have positive annual returns. Before the macro to analyze over 3000 rows was refactored, the run time for 2017 and 2018 analyses were 0.433s and 0.391s after the macro was optimized to hold data within arrays as opposed to reassigning values for each respective stock.
+
+
+### Analysis of 2017 Performance
+Before refactoring, the macro ran for 0.433s before refactoring and 0.391s afterwards, yielding a 10.6% decrease in runtime. <br />
+![2017 Macro Runtime](Resources/VBA_Challenge_2017_Windows.png)
+
+### Analysis of 2018 Performance
+Before refactoring, the macro ran for 0.0.433s before refactoring and 0.391s afterwards, also yielding a 10.6% decrease in runtime. <br />
+![2018 Macro Runtime](Resources/VBA_Challenge_2018_Windows.png)
+
+
+## Summary
+
+- **What are the advantages or disadvantages of refactoring code?** <br />
+Advantages of code refactoring include optimizing code to make it more efficient performance-wise, easier to understand, and improve ease of finding bugs. The main disadvantage of code refactoring is the amount of time necessary to perform this task, especially for lengthier code.
+
+
+- **How do these pros and cons apply to refactoring the original VBA script?** <br />
+One of the pros to the code refactoring was organizing the stock data to be stored in arrays, which was previously not done in the original VBA script. One of the cons, however, involved reformatting the code such that each element of the array had to be accessed when populating and outputting the data.
+
