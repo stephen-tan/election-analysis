@@ -12,21 +12,20 @@ A Colorado Board of Elections employee has given the following tasks to complete
 The results of the analysis are showed below:
 
 ### Total Votes: 369,711
--------------------------
 ### County Votes:
 - Jefferson: 10.5% (38,855) <br/>
 - Denver: 82.8% (306,055) <br/>
 - Arapahoe: 6.7% (24,801) <br/>
 -------------------------
 ### Candidate Votes
-Charles Casper Stockham: 23.0% (85,213) <br/>
-Diana DeGette: 73.8% (272,892) <br/>
-Raymon Anthony Doane: 3.1% (11,606) <br/>
+- Charles Casper Stockham: 23.0% (85,213) <br/>
+- Diana DeGette: 73.8% (272,892) <br/>
+- Raymon Anthony Doane: 3.1% (11,606) <br/>
 -------------------------
 ### Winning Candidate:
-Diana DeGette <br/>
-Vote Count: 272,892 <br/>
-Percentage: 73.8% <br/>
+- Diana DeGette <br/>
+- Vote Count: 272,892 <br/>
+- Percentage: 73.8% <br/>
 -------------------------
 
 ## Election Audit Summary
