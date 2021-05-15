@@ -1,29 +1,39 @@
 # Election Analysis
 
 ## Overview of Project
-A Colorado Board of Elections employee has given the folling tasks to complete the election audit of a recent local congressional election. The tasks were: <br />
-1. Calculate...
+A Colorado Board of Elections employee has given the following tasks to complete the election audit of a recent local congressional election. The tasks were to gather: <br />
+1. Total number of votes cast
+2. A complete list of candidates who received votes
+3. Total number of votes each candidate received
+4. Percentage of votes each candidate won
+5. The winner of the election based on popular vote
 
+## Election Audit Results
+The results of the analysis are showed below:
 
-## Results
-The results of the analysis showed that 2017 was a far better year than 2018 for the dozen stocks analyzed, with only one of the stocks having a negative annual returns for 2017 whereas in 2018 there were only two stocks that have positive annual returns. Before the macro to analyze over 3000 rows was refactored, the run time for 2017 and 2018 analyses were 0.433s and 0.391s after the macro was optimized to hold data within arrays as opposed to reassigning values for each respective stock.
+Election Results
+-------------------------
+Total Votes: 369,711
+-------------------------
 
+County Votes:
+Jefferson: 10.5% (38,855)
+Denver: 82.8% (306,055)
+Arapahoe: 6.7% (24,801)
 
-### Analysis of 2017 Performance
-Before refactoring, the macro ran for 0.433s before refactoring and 0.391s afterwards, yielding a 10.6% decrease in runtime. <br />
-![2017 Macro Runtime](Resources/VBA_Challenge_2017_Windows.png)
+-------------------------
+Largest County Turnout: Denver
+-------------------------
+Charles Casper Stockham: 23.0% (85,213)
+Diana DeGette: 73.8% (272,892)
+Raymon Anthony Doane: 3.1% (11,606)
 
-### Analysis of 2018 Performance
-Before refactoring, the macro ran for 0.0.433s before refactoring and 0.391s afterwards, also yielding a 10.6% decrease in runtime. <br />
-![2018 Macro Runtime](Resources/VBA_Challenge_2018_Windows.png)
+-------------------------
+Winner: Diana DeGette
+Winning Vote Count: 272,892
+Winning Percentage: 73.8%
+-------------------------
 
-
-## Summary
-
-- **What are the advantages or disadvantages of refactoring code?** <br />
-Advantages of code refactoring include optimizing code to make it more efficient performance-wise, easier to understand, and improve ease of finding bugs. The main disadvantage of code refactoring is the amount of time necessary to perform this task, especially for lengthier code.
-
-
-- **How do these pros and cons apply to refactoring the original VBA script?** <br />
-One of the pros to the code refactoring was organizing the stock data to be stored in arrays, which was previously not done in the original VBA script. One of the cons, however, involved reformatting the code such that each element of the array had to be accessed when populating and outputting the data.
+## Election Audit Summary
+The results of the analysis showed that 
 
